@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>NFT preview card component</title>
 </head>
@@ -15,9 +16,7 @@
         <img src="images/image-equilibrium.jpg" alt="rolling cube" class="component__imgblock--image">
       </div>
 
-      <h1 class="component__heading">
-        Equilibrium #3429
-      </h1>
+      <a href="#" class="component__heading">Equilibrium #3429</a>
 
       <p class="component__paragraph">
         Our Equilibrium collection promotes balance and calm
@@ -25,9 +24,11 @@
 
       <div class="component__details">
         <p class="component__details--price">
+          <img src="images/icon-ethereum.svg" alt="ethereum icon">
           0.041ETH
         </p>
         <p class="component__details--time">
+          <img src="images/icon-clock.svg" alt="clock icon">
           3 days left
         </p>
       </div>
@@ -36,11 +37,11 @@
 
       <div class="component__footer">
         <img src="images/image-avatar.png" alt="Jules Wyvern avatar" class="component__footer--avatar">
-        <p class="component__footer--name">Creation of <span>Jules Wyvern</span></p>
+        <p class="component__footer--name">Creation of <a href="#">Jules Wyvern</a></p>
       </div>
     </main>
 
-    <div class="attribution">
+    <div class="component__attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://www.linkedin.com/in/uzochukwuokafor/" target="_blank">Uzochukwu</a>.
     </div>
