@@ -63,7 +63,7 @@
 
 .component__heading {
   text-decoration: none;
-  display: block;
+  display: inline-block;
   color: white;
   font-size: .9rem;
   margin: 1rem 0 .7rem;
@@ -182,5 +182,49 @@
 
 .component__attribution a:hover, .component__attribution a:focus {
   color: #009994;
+}
+
+@media (min-width: 375px) {
+  .component {
+    padding: 1.2rem;
+  }
+  .component__imgblock {
+    height: 55vh;
+  }
+  .component__heading {
+    font-size: 1.2rem;
+  }
+  .component__paragraph {
+    font-size: .8rem;
+    margin-bottom: .9rem;
+  }
+  .component__footer--name {
+    font-size: .8rem;
+  }
+  .component__footer--name a {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 470px) {
+  .container {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (min-width: 570px) {
+  .container {
+    padding: 3rem 3rem;
+  }
+  .component__imgblock {
+    height: 60vh;
+  }
+  .component__heading {
+    font-size: 1.4rem;
+  }
+  .component__paragraph {
+    font-size: 1rem;
+    margin-bottom: .9rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
