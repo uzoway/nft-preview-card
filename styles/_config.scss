@@ -1,0 +1,30 @@
+// Variables
+
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$dark-blue: hsl(217, 54%, 11%);
+$dark-blue-card: hsl(216, 50%, 16%);
+$dark-blue-line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+$font-family: 'Outfit', sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: $font-family;
+}
+
+.container{
+    min-height: 100vh;
+    background: $dark-blue;
+    position: relative;
+    padding: 3rem 1.5rem;
+}
+
+@mixin AlignCenter {
+    display: flex;
+    align-items: center;
+}
