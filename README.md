@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL here](https://www.frontendmentor.io/solutions/mobile-first-nft-preview-card-component-using-html5-and-css-DcLoaRNGe)
+- [Live site URL here](https://nft-preview-card-five.vercel.app/)
 
 ## My process
 
