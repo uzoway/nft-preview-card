@@ -227,4 +227,39 @@
     margin-bottom: .9rem;
   }
 }
+
+@media (min-width: 700px) {
+  .component {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .component__imgblock {
+    height: 45vh;
+  }
+  .component__details--price {
+    font-size: .9rem;
+  }
+  .component__details--price img {
+    width: .6rem;
+  }
+  .component__details--time {
+    font-size: .9rem;
+  }
+  .component__details--time img {
+    margin-right: .3rem;
+  }
+  .component__footer--avatar {
+    width: 1.55rem;
+    height: 1.55rem;
+  }
+  .component__footer--name {
+    font-size: 1rem;
+  }
+  .component__footer--name a {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

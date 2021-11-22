@@ -199,3 +199,47 @@
     }
 
 }
+
+// Media query for screen size 700px
+@media (min-width: 700px){
+    .component{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
+// Media query for screen size 1440px
+@media (min-width: 1000px){
+    .component__imgblock{
+        height: 45vh;
+    }
+
+    .component__details--price{
+        font-size: .9rem;
+
+        img{
+            width: .6rem;
+        }
+    }
+
+    .component__details--time{
+        font-size: .9rem;
+
+        img{
+            margin-right: .3rem;
+        }
+    }
+
+    .component__footer--avatar{
+        width: 1.55rem;
+        height: 1.55rem;
+    }
+
+    .component__footer--name{
+        font-size: 1rem;
+
+        a{
+            font-size: 1rem;
+        }
+    }
+}
